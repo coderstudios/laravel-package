@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\CoderStudios;
+namespace CoderStudios\LP\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
