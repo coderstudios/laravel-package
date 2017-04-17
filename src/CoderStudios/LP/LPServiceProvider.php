@@ -19,6 +19,8 @@ class LPServiceProvider extends ServiceProvider
 
         $this->loadViewsFrom(__DIR__.'/resources/views', 'lp');
 
+        $this->loadTranslationsFrom(__DIR__.'/resources/lang', 'laravel-package');
+
         $this->publishes([
             __DIR__.'/resources/lang' => resource_path('lang/vendor/lp/lang'),
         ], 'lang');
