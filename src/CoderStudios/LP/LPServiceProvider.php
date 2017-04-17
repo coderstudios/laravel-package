@@ -22,7 +22,7 @@ class LPServiceProvider extends ServiceProvider
         $this->loadTranslationsFrom(__DIR__.'/resources/lang', 'laravel-package');
 
         $this->publishes([
-            __DIR__.'/resources/lang' => resource_path('lang/vendor/lp/lang'),
+            __DIR__.'/resources/lang' => resource_path('lang/vendor/laravel-package'),
         ], 'lang');
 
         $this->publishes([
