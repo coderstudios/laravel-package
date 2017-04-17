@@ -1,3 +1,3 @@
 <?php
 
-Route::get('/laravel-package', ['namespace' => 'CoderStudios\LP\Http\Controllers', 'as' => 'lp', 'uses' => 'LPController@lp']);
+Route::get('/laravel-package', ['namespace' => 'CoderStudios', 'as' => 'lp', 'uses' => 'LPController@lp']);

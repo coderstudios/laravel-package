@@ -24,6 +24,10 @@ class LPServiceProvider extends ServiceProvider
         ], 'lang');
 
         $this->publishes([
+            __DIR__.'/Http/Controllers' => app_path('Http/Controllers/CoderStudios'),
+        ], 'controllers');
+
+        $this->publishes([
             __DIR__.'/resources/views' => resource_path('views/vendor/lp'),
         ], 'views');
 
