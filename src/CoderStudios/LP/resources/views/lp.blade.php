@@ -1,9 +1,5 @@
-<html>
-<head>
-    <title>{{ $title }}</title>
-    <link rel="stylesheet" href="/lp.css">
-</head>
-<body>
+@extends('master')
+
+@section('content')
     <h1>@lang('lp::lp.text')</h1>
-</body>
-</html>
+@endsection
