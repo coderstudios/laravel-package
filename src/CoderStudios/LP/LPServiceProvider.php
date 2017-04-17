@@ -28,7 +28,7 @@ class LPServiceProvider extends ServiceProvider
         ], 'views');
 
         $this->publishes([
-            '../../config/lp.php' => config_path('lp.php'),
+            __DIR__.'/../../config/lp.php' => config_path('lp.php'),
         ], 'config');
 
         $this->publishes([
