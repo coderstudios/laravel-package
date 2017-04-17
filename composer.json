@@ -1,0 +1,32 @@
+{
+    "name": "coderstudios/laravel-package",
+    "description": "Coder Studios Laravel package",
+    "authors": [
+        {
+            "name": "Coder Studios",
+            "email": "thedevelopers@coderstudios.com"
+        }
+    ],
+    "license": "MIT",
+    "keywords": [  
+        "package",
+        "laravel",
+        "coderstudios"
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CoderStudios\\LP": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
