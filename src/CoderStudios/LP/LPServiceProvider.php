@@ -35,6 +35,6 @@ class LPServiceProvider extends ServiceProvider
             __DIR__.'/resources/assets' => public_path('vendor/lp'),
         ], 'public');
 
-        $this->app->make('view')->composer('vendor.lp.master','Composers\MasterComposer');
+        $this->app->make('view')->composer('vendor.lp.master','CoderStudios\LP\Composers\MasterComposer');
 	}
 }
